@@ -1,0 +1,45 @@
+{
+    "name": "weebyapi-guide",
+    "description": "Support portal for Weeby API.",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "lint": "eslint . --ext js,md,vue",
+        "dev": "vuepress dev guide",
+        "build": "NODE_ENV=production vuepress build guide"
+    },
+    "repository": "https://github.com/ntm-development/weebyapi-guide.git",
+    "keywords": [
+        "discord",
+        "weeby-api",
+        "bot",
+        "guide",
+        "support"
+    ],
+    "contributors": [
+        "WiseDevHelper <45759535+WiseDevHelper@users.noreply.github.com>",
+        "Sanctuary <sanc.pw@gmail.com>",
+        "dragonfire535 <danielbodendahl@gmail.com>",
+        "Drahcirius",
+        "Lewdcario",
+        "Souji <timoqueezle@gmail.com>"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ntm-development/weebyapi-guide/issues"
+    },
+    "homepage": "https://support.weebyapi.xyz",
+    "devDependencies": {
+        "@vuepress/plugin-docsearch": "^2.0.0-beta.24",
+        "@vuepress/plugin-google-analytics": "^2.0.0-beta.24",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^7.18.0",
+        "eslint-config-sora": "^3.1.0",
+        "eslint-plugin-markdown": "^1.0.0",
+        "eslint-plugin-vue": "^7.5.0",
+        "vuepress-vite": "^2.0.0-beta.24"
+    },
+    "dependencies": {
+        "@discord-message-components/vue": "^0.2.1"
+    }
+}
