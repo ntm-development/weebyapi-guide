@@ -9,15 +9,15 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
 	lang: 'en-US',
 	title: 'Weeby API Support',
-	description: 'Never get stressed again with Discord Bot Development. Weeby API offers a diverse range of endpoints available from Generators, GIFs and much more!',
+	description: 'The official support website for Weeby API, which includes guides and FAQs regarding the API service.',
 	head: [
 		['meta', { charset: 'utf-8' }],
 		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
 		['link', { rel: 'icon', href: 'https://cdn.weebyapi.xyz/img/static/IconTransparent.png' }],
-		['meta', { name: 'theme-color', content: '#3eaf7c' }],
+		['meta', { name: 'theme-color', content: '#e881d0' }],
 		['meta', { name: 'twitter:card', content: 'summary' }],
 		['meta', { property: 'og:title', content: 'Weeby API Support' }],
-		['meta', { property: 'og:description', content: 'Never get stressed again with Discord Bot Development.\nWeeby API offers a diverse range of endpoints available from Generators, GIFs and much more!' }],
+		['meta', { property: 'og:description', content: 'The official support website for Weeby API, which includes guides and FAQs regarding the API service.' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:url', content: 'https://support.weebyapi.xyz/' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
@@ -38,7 +38,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 				link: 'https://weebyapi.xyz/',
 			},
 			{
-				text: 'Documention',
+				text: 'Docs',
 				link: 'https://weebyapi.xyz/api/docs/',
 			},
 			{
@@ -61,7 +61,7 @@ if (NODE_ENV === 'production' && ALGOLIA_DOCSEARCH_API_KEY && GOOGLE_ANALYTICS_I
 			'@vuepress/plugin-docsearch',
 			{
 				apiKey: ALGOLIA_DOCSEARCH_API_KEY,
-				indexName: 'discordjs',
+				indexName: 'weebyapi',
 				placeholder: 'Search guide',
 			},
 		],
