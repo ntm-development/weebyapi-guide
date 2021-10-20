@@ -1,7 +1,7 @@
 # Setup
 
 1. Install Node.js v16.6 or higher by selecting the Current tab, and then "OS Name" Installer. This will also install NPM. [Click here](https://nodejs.org/en/download/current/) for the download page.
-![nodejs](https://i.imgur.com/mtJcz5E.png "Step 1")
+![nodejs](./images/nodejs.png "Step 1")
 
 2. Install `weeby-js` with the following command:
 ```bash

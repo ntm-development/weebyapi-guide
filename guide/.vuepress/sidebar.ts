@@ -18,6 +18,12 @@ export default {
 			],
 		},
 		{
+			text: 'Previews',
+			children: [
+				'/previews/custom.md',
+			],
+		},
+		{
 			text: 'Weeby-JS',
 			children: [
 				'/weeby-js/setup.md',
