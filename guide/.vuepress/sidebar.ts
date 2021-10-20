@@ -17,5 +17,14 @@ export default {
 				'/weeby-api/authentication.md',
 			],
 		},
+		{
+			text: 'Weeby-JS',
+			children: [
+				'/weeby-js/setup.md',
+				'/weeby-js/authentication.md',
+				'/weeby-js/examples.md',
+			],
+		},
+
 	],
 };
