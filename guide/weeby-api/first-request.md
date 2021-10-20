@@ -2,7 +2,7 @@
 Now that you've been accepted and received the token from the Weeby API bot, you may take the opportunity to test the token with the `curl` command.
 
 Type this in your console:
-```sh
+```sh:no-line-numbers
 curl -X GET 'https://weebyapi.xyz/gif/zerotwo' -H 'Authorization: Bearer YOUR_TOKEN'
 ```
 

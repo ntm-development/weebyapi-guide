@@ -21,16 +21,16 @@ import '@discord-message-components/vue/dist/style.css';
 export default defineClientAppEnhance(({ app }) => {
 	app.use(DiscordMessageComponents, {
 		avatars: {
-			logo: 'https://weebyapi.xyz/static/Logo.png',
+			logo: 'https://cdn.weebyapi.xyz/img/static/IconTransparent.png',
 		},
 		profiles: {
 			user: {
 				author: 'User',
-				avatar: 'logo',
+				avatar: 'blue',
 			},
 			bot: {
-				author: 'Guide Bot',
-				avatar: 'green',
+				author: 'Weeby API',
+				avatar: 'logo',
 				bot: true,
 			},
 		},

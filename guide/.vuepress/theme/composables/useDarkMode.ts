@@ -18,9 +18,9 @@ export default function useDarkMode(): { isDarkMode: Ref<boolean> } {
 		} else if (!value && systemDarkMode) {
 			localStorage.setItem('guide-color-scheme', 'light');
 		}
-	}
+	};
 
-	const mediaQuery = ref<MediaQueryList | null>(null)
+	const mediaQuery = ref<MediaQueryList | null>(null);
 	const onMediaQueryChange = (event: MediaQueryListEvent): void => {
 		isDarkMode.value = event.matches;
 	};
