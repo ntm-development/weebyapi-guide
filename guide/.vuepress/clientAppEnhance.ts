@@ -25,8 +25,8 @@ export default defineClientAppEnhance(({ app }) => {
 		},
 		profiles: {
 			user: {
-				author: 'User',
-				avatar: 'blue',
+				author: 'Nate',
+				avatar: 'https://i.imgur.com/cwsKzna.jpg',
 			},
 			bot: {
 				author: 'Weeby API',

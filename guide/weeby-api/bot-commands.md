@@ -1,5 +1,5 @@
 # Bot Commands
-The Weeby API bot uses slash commands which can be run in the bot's DMs and on the server.
+The Weeby API bot uses slash commands which can be run on the server.
 
 <DiscordMessages>
     <DiscordMessage profile="bot">
@@ -9,8 +9,8 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>apply</DiscordInteraction>
 		</template>
-        Submit an application for the API. <br>
-        Usage: <strong>/apply</strong> &lt;bot ID&gt; &lt;server count&gt; &lt;reason&gt;
+        <strong>/apply</strong> &lt;bot ID&gt; &lt;server count&gt; &lt;reason&gt; <br>
+        <i>Submit an application for the API.</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
         <template #interactions>
@@ -19,9 +19,9 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>token</DiscordInteraction>
 		</template>
-        Sends a ephemeral message of your API Token. <br>
-        If you want it sent to your DM, set the <code>dm</code> option to true <br>
-        Usage: <strong>/token</strong> [dm]
+        <strong>/token</strong> [dm] <br>
+        <i>Sends a ephemeral message of your API Token. <br>
+        If you want it sent to your DM, set the <code>dm</code> option to true</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
         <template #interactions>
@@ -30,8 +30,8 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>stats</DiscordInteraction>
 		</template>
-        View the current statistics of Weeby API. <br>
-        Usage: <strong>/stats</strong>
+        <strong>/stats</strong> <br>
+        <i>View the current statistics of Weeby API.</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
         <template #interactions>
@@ -40,8 +40,8 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>help</DiscordInteraction>
 		</template>
-        Get information about a command. <br>
-        Usage: <strong>/help</strong> &lt;command&gt;
+        <strong>/help</strong> &lt;command&gt; <br>
+        <i>Get information about a command.</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
         <template #interactions>
@@ -50,8 +50,8 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>ping</DiscordInteraction>
 		</template>
-        Fetches the current ping of the bot. <br>
-        Usage: <strong>/ping</strong>
+        <strong>/ping</strong> <br>
+        <i>Fetches the current ping of the bot.</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
         <template #interactions>
@@ -60,8 +60,8 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>docs</DiscordInteraction>
 		</template>
-        View endpoint documentation of Weeby API directly. <br>
-        Usage: <strong>/docs</strong> [category] [type]
+        <strong>/docs</strong> [category] [type] <br>
+        <i>View endpoint documentation of Weeby API directly.</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
         <template #interactions>
@@ -70,8 +70,8 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>support</DiscordInteraction>
 		</template>
-        Get information about a support article. <br>
-        Usage: <strong>/support</strong> [tag]
+        <strong>/support</strong> [tag] <br>
+        <i>Get information about a support article.</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
         <template #interactions>
@@ -80,8 +80,8 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>wrapper</DiscordInteraction>
 		</template>
-        Get information about an API wrapper. <br>
-        Usage: <strong>/wrapper</strong> [name]
+        <strong>/wrapper</strong> [name] <br>
+        <i>Get information about an API wrapper.</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
         <template #interactions>
@@ -90,7 +90,7 @@ The Weeby API bot uses slash commands which can be run in the bot's DMs and on t
 				:command="true"
 			>about</DiscordInteraction>
 		</template>
-        Get useful information about Weeby API. <br>
-        Usage: <strong>/apply</strong>
+        <strong>/about</strong> <br>
+        <i>Get useful information about Weeby API.</i>
     </DiscordMessage>
 </DiscordMessages>
