@@ -3,7 +3,7 @@ Developers who use Weeby API are to abide by these guidelines to ensure that Wee
 
 * Do not use the service to intentionally Spam, DDOS or Stress Test.
 * Scraping the API is prohibited.
-* Don't provide false information when applying, or using alt accounts to get more tokens. One Token is only allowed per user and can be used on any project that the user has created, as long as they run a Discord Bot.
+* Don't provide false information when applying, or using alt accounts to get more tokens. **One Token** is only allowed per user and can be used on any project that the user has created, as long as they run a Discord Bot.
 * You should not be using Weeby API to bully, harm or target an individual with our endpoints.
 * You must not share your token with anyone.
 * You must not automate the API requests (i.e. 10 second intervals)

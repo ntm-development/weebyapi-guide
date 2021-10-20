@@ -1,6 +1,13 @@
+<div align="center">
+  <br />
+  <p>
+    <a href="https://weebyapi.xyz/"><img src="https://cdn.weebyapi.xyz/img/static/Logo.png" width="446" alt="weebyAPI logo" /></a>
+  </p>
+</div>
+
 # Introduction
 
-Welcome to the official support website for Weeby API. Here you can find all the support related pages on how to get started and everything you need to know.
+Welcome to the official support website for **Weeby API**. Here you can find all the support related pages on how to get started and everything you need to know.
 
 ## What is Weeby API?
 
@@ -16,3 +23,10 @@ Here are a few useful links:
 * [Support Server](https://discord.gg/cmUFubKUtu)
 * [Credits](https://weebyapi.xyz/credits/)
 * [Donate](https://weebyapi.xyz/donate/)
+
+## Wrappers
+Want to integrate Weeby API into your project? You should check our these wrappers made by the amazing community:
+
+* [Weeby-JS](https://js.weebyapi.xyz/) - Node.js
+* [Node-Weeby](https://github.com/redleague/node-weeby) - TypeScript
+* [weeby.py](https://github.com/asheeeshh/weeby.py) - Python

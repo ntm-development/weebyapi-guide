@@ -18,5 +18,20 @@ export default {
 				'/weeby-api/bot-commands.md',
 			],
 		},
+		{
+			text: 'Previews',
+			children: [
+				'/previews/custom.md',
+			],
+		},
+		{
+			text: 'Weeby-JS',
+			children: [
+				'/weeby-js/setup.md',
+				'/weeby-js/authentication.md',
+				'/weeby-js/examples.md',
+			],
+		},
+
 	],
 };

@@ -1,5 +1,5 @@
 # Making your first request
-Now that you've been accepted and received the token from the Weeby API bot, you may take the opportunity to test the token with the `curl` command.
+Now that you've been accepted and received the token from the Weeby API bot, you want to know how to use the API and take the opportunity to test the token with the `curl` command.
 
 Type this in your console:
 ```sh:no-line-numbers
@@ -12,7 +12,6 @@ If successful, it should return a JSON Object (shown below) of the GIF and that 
 {
    "status": 200,
    "url": "https://cdn.weebyapi.xyz/img/gif/zerotwo/14.gif",
-   "formattedURL": "https://cdn.weebyapi.xyz/img/gif/zerotwo/14.gif",
    "path": "/img/gif/zerotwo/14.gif",
    "type": "zerotwo",
    "number": 14,
