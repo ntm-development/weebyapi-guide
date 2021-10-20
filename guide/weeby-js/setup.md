@@ -4,29 +4,31 @@
 ![nodejs](./images/nodejs.png "Step 1")
 
 2. Install `weeby-js` with the following command:
-```bash
+```bash:no-line-numbers
 npm install weeby-js --save
 ```
 
 3. After you obtain a token from the Weeby API bot (via applying for one). Install the following NPM modules:
-```bash
+```bash:no-line-numbers
 npm install dotenv
 ```
 
-> If your platform is Windows and run into issues, then install Visual Studio C++ Build Tools 
-```bash
+::: tip
+If your platform is Windows and run into issues, then install Visual Studio C++ Build Tools 
+```bash:no-line-numbers
 npm i -g --add-python-to-path --vs2015 --production windows-build-tools
 ```
+:::
 
 4. Create a `.env` file and add the following variable:
-```
+```env:no-line-numbers
 WEEBY_TOKEN=<your token>
 ```
 
 5. Now, in your `index.js` file (or any other file), add the following code:
 ```js
 const WeebyAPI = require('weeby-js');
-require('dotenv').config();)
+require('dotenv').config();
 
 const weeby = new WeebyAPI(process.env.WEEBY_TOKEN);
 ```
