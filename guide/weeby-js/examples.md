@@ -23,16 +23,16 @@ const WeebyAPI = require('weeby-js');
 const weeby = new WeebyAPI('YOUR_TOKEN');
 
 const image = await weeby.custom.greeting({
-    icon: 'https://i.imgur.com/qgKvcQv.png',
-    background: 'https://i.imgur.com/ENbvdWD.png',
-    greet: 'Welcome',
-    name: 'Nate',
-    message: 'Hello and Welcome!',
-    greetHex: 'E881D1',
-    messageHex: '76d6ff',
-    circleHex: '6b6d75',
-    nameHex: 'e889e0',
-    font: 'riffic'
+	icon: 'https://i.imgur.com/qgKvcQv.png',
+	background: 'https://i.imgur.com/ENbvdWD.png',
+	greet: 'Welcome',
+	name: 'Nate',
+	message: 'Hello and Welcome!',
+	greetHex: 'E881D1',
+	messageHex: '76d6ff',
+	circleHex: '6b6d75',
+	nameHex: 'e889e0',
+	font: 'riffic',
 });
 
 message.channel.send({ files: [{ attachment: image }] }); // -> Image Buffer
