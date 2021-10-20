@@ -15,6 +15,7 @@ export default {
 				'/weeby-api/requirements.md',
 				'/weeby-api/first-request.md',
 				'/weeby-api/authentication.md',
+				'/weeby-api/bot-commands.md',
 			],
 		},
 	],
