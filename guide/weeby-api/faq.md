@@ -38,11 +38,14 @@ We recommend that when you suggest for a new Weeby API feature, that you follow 
 - No Search/Lookup endpoint suggestions. As these have their own APIs, use those instead as if we were to add our own, you will have to request the endpoint through Weeby API, then Weeby API has to request another API to get that relevant information.
 - No NSFW or otherwise offensive suggestions.
 
-# Are there any rate-limits?
+### Are there any rate-limits?
 We have not enforced any rate-limits on the API but we expect you to cache the responses especially if you have a bot that has a lot of servers and relies on Weeby API.
 It's recommended that you implement caching to save the API's resources from being used up (i.e bandwidth, hosting).
 
-# Is Weeby API safe?
+### Is Weeby API safe?
 Absolutely! safety of users that rely on Weeby API is the top priority. 
 The service has Endpoints and GIFs that are appropriate for all ages (PG-13) and with the GIFs/Images, they're manually reviewed for any NSFW, Lolicon or inappropriate content and/or references.
 If you come across something inappropriate, join the [Discord Server](https://discord.gg/cmUFubKUtu) and report to a Weeby API Developer.
+
+### None of these help me! What do I do?
+If your question doesn't get answered here, join our [Discord Server](https://discord.gg/cmUFubKUtu) or email [natebotenquiries@gmail.com](mailto:natebotenquiries@gmail.com) for help. The developers are always available to help with your problem.
