@@ -63,7 +63,7 @@ The bigger the image size (dimensions), the longer it will take to process the e
 <img src="https://cdn.weebyapi.xyz/img/examples/effects/brightness.png" alt="brightness" width="600" height="600">
 
 ### Darkness (1-255)
-<img src="https://cdn.weebyapi.xyz/img/examples/effects/brightness.png" alt="brightness" width="600" height="600">
+<img src="https://cdn.weebyapi.xyz/img/examples/effects/darkness.png" alt="darkness" width="600" height="600">
 
 
 ## [Level](https://weebyapi.xyz/api/docs#level)
@@ -71,10 +71,11 @@ The bigger the image size (dimensions), the longer it will take to process the e
 <img src="https://cdn.weebyapi.xyz/img/examples/effects/fisheye.png" alt="fisheye" width="600" height="600">
 
 ### Desaturate [1-255]
-<img src="https://cdn.weebyapi.xyz/img/examples/effects/fisheye.png" alt="fisheye" width="600" height="600">
+<img src="https://cdn.weebyapi.xyz/img/examples/effects/desaturate.png" alt="desaturate" width="600" height="600">
 
 ### Distort [1-100]
 <img src="https://cdn.weebyapi.xyz/img/examples/effects/distort.png" alt="distort" width="600" height="600">
 
 
 ## [Resize](https://weebyapi.xyz/api/docs#resize)
+<img src="https://cdn.weebyapi.xyz/img/examples/effects/resize.png" alt="resize">
