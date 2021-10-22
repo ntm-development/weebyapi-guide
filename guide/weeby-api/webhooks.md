@@ -2,7 +2,7 @@
 Before you can start working with Webhooks, will need to go and visit the [Weeby API Dashboard](https://weebyapi.xyz/dashboard). Make sure that you are accepted first into Weeby API by applying for a token using the `/apply` command with the Weeby API bot, or using the [apply](https://weebyapi.xyz/dashboard/apply) page.
 
 ### Events
-If you would like to receive updates from the API without making requests. You can setup our event webhook system to get events whenever a user votes your bot on Top.gg, a new punishment was added and more. 
+If you would like to receive updates from the API without making requests. You can setup our event webhook system to get events whenever a user votes your bot on [Top.gg](https://top.gg/), a new punishment was added and more. 
 To verify requests are coming from Weeby API, we will provide the Authorization header with your Webhook Authorization token. It's recommended to verify every request to ensure it is coming from Weeby API.
 Events sent by Weeby API must be acknowledged with a `200` response in order to be considered successful.
 
@@ -106,10 +106,12 @@ To guarantee for mentions to render properly, make sure both the user and bot is
 
 ##### Bot
 - `{botMention}` - String. The mention of the bot
-`{botID}` - String. The ID of the user.
+- `{botID}` - String. The ID of the user.
 
 ##### Misc.
-`{voteDate}` - Number. The date when the user voted.
+- `{voteDate}` - Number. The date when the user voted.
+
+<br>
 
 ::: tip
 For now, these are the only supported variables. In the future we may introduce ways to fetch full user and bot data and make it 100% customisable.

@@ -26,6 +26,7 @@ WEEBY_TOKEN=<your token>
 ```
 
 5. Now, in your `index.js` file (or any other file), add the following code:
+<!-- eslint-skip -->
 ```js
 const WeebyAPI = require('weeby-js');
 require('dotenv').config();

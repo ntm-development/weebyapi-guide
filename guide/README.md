@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://weebyapi.xyz/"><img src="https://cdn.weebyapi.xyz/img/static/Logo.png" width="446" alt="Weeby API Logo" /></a>
+    <a href="https://weebyapi.xyz/"><img src="https://cdn.weebyapi.xyz/img/static/WeebyAPISupportLogo.png" width="446" alt="Weeby API Logo" /></a>
   </p>
 </div>
 
