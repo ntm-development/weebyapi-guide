@@ -1,4 +1,4 @@
-# Bot Commands
+# Bot commands
 The Weeby API bot uses slash commands which can be run in the bot's DMs and on the server.
 
 <DiscordMessages>
