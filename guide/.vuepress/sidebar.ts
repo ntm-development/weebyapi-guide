@@ -4,6 +4,7 @@ export default {
 			text: 'Home',
 			children: [
 				'/',
+				'/branding.md',
 			],
 		},
 		{

@@ -4,13 +4,13 @@
 A Rest API Service that lets you generate images, create image effects, fetch GIFs and so much more.
 
 ### Can I invite the Weeby API Discord Bot?
-No, the bot can only be used on the [NTM Discord Server](https://weebyapi.xyz/discord). The bot will only be used for handling token applications, viewing documentation, and everything else about Weeby API.
+No, the bot can only be used on the [NTM Discord Server](https://weebyapi.xyz/discord). The bot will only be used for handling applications, viewing documentation, and everything else about Weeby API.
 
 ### Are there any examples?
 Although we don't have a comprehensive list of examples. We have two endpoint examples currently on the Weeby API website.
 
 ### Do you have any Weeby API Wrappers?
-Yes! We have these listed [here!](/#wrappers).
+Yes! We have these listed [here!](/#wrappers)
 
 ### Your code examples are for Superagent? Can I use any other HTTP Module?
 Absolutely! Its compatible with every HTTP Module (Axios, node-fetch etc.), as long as you supply the correct token and the query parameters. We strongly discourage using JQuery for GET requests or trying to scrape our pages as it is a waste of resources.

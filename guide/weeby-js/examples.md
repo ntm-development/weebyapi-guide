@@ -1,6 +1,6 @@
 # Examples
 
-### GIF:
+### GIF
 ```js
 const WeebyAPI = require('weeby-js');
 const weeby = new WeebyAPI('YOUR_TOKEN');
@@ -8,7 +8,7 @@ const weeby = new WeebyAPI('YOUR_TOKEN');
 const gif = await weeby.gif.fetch('pat');
 console.log(gif); // -> https://cdn.weebyapi.xyz/img/gif/pat/13.gif
 ```
-### Generator:
+### Generator
 ```js
 const WeebyAPI = require('weeby-js');
 const weeby = new WeebyAPI('YOUR_TOKEN');
@@ -17,7 +17,7 @@ const image = await weeby.generators.oneImage({ type: '3000years', image: 'https
 message.channel.send({ files: [{ attachment: image }] }); // -> Image Buffer
 ```
 
-### Custom:
+### Custom
 ```js
 const WeebyAPI = require('weeby-js');
 const weeby = new WeebyAPI('YOUR_TOKEN');
