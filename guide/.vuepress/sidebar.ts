@@ -25,6 +25,8 @@ export default {
 			text: 'Previews',
 			children: [
 				'/previews/custom.md',
+				'/previews/effects.md',
+
 			],
 		},
 		{
