@@ -6,7 +6,7 @@ If you would like to receive updates from the API without making requests. You c
 To verify requests are coming from Weeby API, we will provide the Authorization header with your Webhook Authorization token. It's recommended to verify every request to ensure it is coming from Weeby API.
 Events sent by Weeby API must be acknowledged with a `200` response in order to be considered successful.
 
-### Setting up on Weeby API
+### Setting up Weeby API
 First, make sure that you have a web server, which is public and accessible by any IP Address.
 Scroll down to Settings, there you will find the Event Webhook section where you can start configuring the settings for event webhooks.
 
@@ -49,8 +49,8 @@ You will find the following details which you should not show anybody:
 
 ![Top.gg Webhook](./images/topgg-webhooks.png)
 
-- Webhook URL - This is your Bot's Webhook URL where Top.gg will send `POST` requests to, along with the [payload](https://docs.top.gg/resources/webhooks/#bot-webhooks) data.
-- Webhook Authorization - You'll receive this upon being accepted into Weeby API, a unique Webhook Token for the Top.gg Webhook System and for our API Webhook Events system. (Don't use your API Token!).
+- **Webhook URL** - This is your Bot's Webhook URL where Top.gg will send `POST` requests to, along with the [payload](https://docs.top.gg/resources/webhooks/#bot-webhooks) data.
+- **Webhook Authorization** - You'll receive this upon being accepted into Weeby API, a unique Webhook Token for the Top.gg Webhook System and for our API Webhook Events system. (Don't use your API Token!).
 
 Now, while we are on this section. Fill in the following fields:
 
