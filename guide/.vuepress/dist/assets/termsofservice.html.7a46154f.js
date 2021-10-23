@@ -1,1 +1,0 @@
-import{o as e,c as r,F as a,a as s,b as n}from"./app.6ca70ea2.js";const o={},t=s("h1",{id:"terms-of-service",tabindex:"-1"},[s("a",{class:"header-anchor",href:"#terms-of-service","aria-hidden":"true"},"#"),n(" Terms of Service")],-1),c=s("p",null,"Under Construction",-1);o.render=function(s,n){return e(),r(a,null,[t,c],64)};export{o as default};
