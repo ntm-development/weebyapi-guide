@@ -1,0 +1,1 @@
+import{o as a,c as r,F as c,a as e,b as i}from"./app.6ca70ea2.js";const n={},o=e("h1",{id:"privacy-policy",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#privacy-policy","aria-hidden":"true"},"#"),i(" Privacy Policy")],-1),s=e("p",null,"Under Construction",-1);n.render=function(e,i){return a(),r(c,null,[o,s],64)};export{n as default};

@@ -53,9 +53,9 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	plugins: [],
 });
 
-const { ALGOLIA_DOCSEARCH_API_KEY, GOOGLE_ANALYTICS_ID, NODE_ENV } = process.env;
+const { ALGOLIA_DOCSEARCH_API_KEY, NODE_ENV } = process.env;
 
-if (NODE_ENV === 'production' && ALGOLIA_DOCSEARCH_API_KEY && GOOGLE_ANALYTICS_ID) {
+if (NODE_ENV === 'production' && ALGOLIA_DOCSEARCH_API_KEY) {
 	config.plugins.push(
 		[
 			'@vuepress/plugin-docsearch',
@@ -64,10 +64,6 @@ if (NODE_ENV === 'production' && ALGOLIA_DOCSEARCH_API_KEY && GOOGLE_ANALYTICS_I
 				indexName: 'weebyapi',
 				placeholder: 'Search guide',
 			},
-		],
-		[
-			'@vuepress/plugin-google-analytics',
-			{ id: GOOGLE_ANALYTICS_ID },
 		],
 	);
 }
