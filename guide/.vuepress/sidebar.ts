@@ -24,9 +24,10 @@ export default {
 		{
 			text: 'Previews',
 			children: [
+				'/previews/generators.md',
 				'/previews/custom.md',
 				'/previews/effects.md',
-
+				'/previews/overlays.md',
 			],
 		},
 		{
@@ -37,6 +38,14 @@ export default {
 				'/weeby-js/examples.md',
 			],
 		},
-
+		{
+			text: 'Other',
+			children: [
+				'/other/socialmedia.md',
+				'/other/privacypolicy.md',
+				'/other/termsofservice.md',
+				'/other/stayingsafeonline.md',
+			],
+		}
 	],
 };
