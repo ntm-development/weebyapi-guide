@@ -8,6 +8,6 @@ export const data = {
   "headers": [],
   "filePathRelative": "weeby-js/setup.md",
   "git": {
-    "updatedTime": 1635032066000
+    "updatedTime": 1635032270000
   }
 }

@@ -105,6 +105,6 @@ export const data = {
   ],
   "filePathRelative": "previews/generators.md",
   "git": {
-    "updatedTime": 1635032066000
+    "updatedTime": 1635032270000
   }
 }

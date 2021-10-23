@@ -1,0 +1,1 @@
+const e={key:"v-6d1059fa",path:"/other/socialmedia.html",title:"Social Media",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"other/socialmedia.md",git:{updatedTime:163503227e4}};export{e as data};

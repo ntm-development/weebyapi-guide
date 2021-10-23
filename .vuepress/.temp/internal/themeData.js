@@ -52,7 +52,7 @@ export const themeData = {
     ]
   },
   "repo": "ntm-development/weebyapi-guide",
-  "docsDir": "guide",
+  "docsDir": ".vuepress/dist",
   "sidebarDepth": 3,
   "editLinks": true,
   "lastUpdated": true,

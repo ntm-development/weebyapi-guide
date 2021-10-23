@@ -1,0 +1,1 @@
+const e={key:"v-200fdc09",path:"/weeby-api/guidelines.html",title:"Guidelines",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"weeby-api/guidelines.md",git:{updatedTime:163503227e4}};export{e as data};

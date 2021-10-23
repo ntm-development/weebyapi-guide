@@ -27,6 +27,6 @@ export const data = {
   ],
   "filePathRelative": "weeby-js/examples.md",
   "git": {
-    "updatedTime": 1635032066000
+    "updatedTime": 1635032270000
   }
 }

@@ -1,0 +1,1 @@
+const e={key:"v-2380ef44",path:"/weeby-api/privacy.html",title:"Our Privacy Policy",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"weeby-api/privacy.md",git:{updatedTime:163503227e4}};export{e as data};

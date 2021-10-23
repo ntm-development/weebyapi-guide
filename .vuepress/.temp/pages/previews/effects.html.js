@@ -144,6 +144,6 @@ export const data = {
   ],
   "filePathRelative": "previews/effects.md",
   "git": {
-    "updatedTime": 1635032066000
+    "updatedTime": 1635032270000
   }
 }

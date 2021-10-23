@@ -1,0 +1,1 @@
+const e={key:"v-6715ffca",path:"/weeby-js/setup.html",title:"Setup",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"weeby-js/setup.md",git:{updatedTime:163503227e4}};export{e as data};
