@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<style>
+		:root {
+			--c-bg: #fff;
+		}
+
+		html.dark {
+			--c-bg: #1d1d1d;
+		}
+
+		html, body {
+			background-color: var(--c-bg);
+		}
+	</style>
+	<script>
+		(() => {
+			const { classList } = document.documentElement;
+			const userMode = localStorage.getItem('guide-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				classList.toggle('dark', true);
+			}
+
+			const themes = ['blurple'];
+			let colorTheme = localStorage.getItem('guide-color-theme');
+
+			if (colorTheme !== 'default' && !themes.includes(colorTheme)) {
+				colorTheme = 'default';
+			}
+
+			if (colorTheme !== 'default') classList.add(`guide-theme-${colorTheme}`);
+		})();
+	</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="https://cdn.weebyapi.xyz/img/static/IconTransparent.png"><meta name="theme-color" content="#e881d0"><meta name="twitter:card" content="summary"><meta property="og:title" content="Weeby API Support"><meta property="og:description" content="The official support website for Weeby API, which includes guides and FAQs regarding the API service."><meta property="og:type" content="website"><meta property="og:url" content="https://support.weebyapi.xyz/"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://cdn.weebyapi.xyz/img/static/IconTransparent.png"><title>Weeby API Support</title><meta name="description" content="The official support website for Weeby API, which includes guides and FAQs regarding the API service.">
+<link rel="modulepreload" href="/assets/app.7dd4d6cd.js"><link rel="modulepreload" href="/assets/404.html.839cba41.js"><link rel="modulepreload" href="/assets/404.html.5205c210.js">
+<link rel="stylesheet" href="/assets/style.f65a1996.css">
+</head>
+<body>
+	<div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/" class="">Take me home</a></div></div><!----><!--]--></div>
+	<script type="module" src="/assets/app.7dd4d6cd.js" defer></script>
+</body>
+</html>
