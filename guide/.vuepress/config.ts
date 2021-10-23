@@ -28,7 +28,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		contributors: false,
 		sidebar,
 		repo: 'ntm-development/weebyapi-guide',
-		docsDir: 'guide',
+		docsDir: '.vuepress/dist',
 		sidebarDepth: 3,
 		editLinks: true,
 		lastUpdated: true,
