@@ -4,7 +4,7 @@
 A Rest API Service that lets you generate images, create image effects, fetch GIFs and so much more.
 
 ### Can I invite the Weeby API Discord Bot?
-No, the bot can only be used on the [NTM Discord Server](https://weebyapi.xyz/discord). The bot will only be used for handling applications, viewing documentation, and everything else about Weeby API.
+No, the bot can only be used on the Support [Discord Server](https://weebyapi.xyz/discord). The bot will only be used for handling applications, viewing documentation, and everything else about Weeby API.
 
 ### Are there any examples?
 Although we don't have a comprehensive list of examples. We have two endpoint examples currently on the Weeby API website.
@@ -45,7 +45,7 @@ It's recommended that you implement caching to save the API's resources from bei
 ### Is Weeby API safe?
 Absolutely! safety of users that rely on Weeby API is the top priority. 
 The service has Endpoints and GIFs that are appropriate for all ages (PG-13) and with the GIFs/Images, they're manually reviewed for any NSFW, Lolicon or inappropriate content and/or references.
-If you come across something inappropriate, join the [Discord Server](https://discord.gg/cmUFubKUtu) and report to a Weeby API Developer.
+If you come across something inappropriate, join the [Discord Server](https://weebyapi.xyz/discord) and report to a Weeby API Developer.
 
 ### None of these help me! What do I do?
-If your question doesn't get answered here, join our [Discord Server](https://discord.gg/cmUFubKUtu) or email [natebotenquiries@gmail.com](mailto:natebotenquiries@gmail.com) for help. The developers are always available to help with your problem.
+If your question doesn't get answered here, join our [Discord Server](https://weebyapi.xyz/discord) or email [natebotenquiries@gmail.com](mailto:natebotenquiries@gmail.com) for help. The developers are always available to help with your problem.
