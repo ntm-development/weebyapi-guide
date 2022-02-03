@@ -3,11 +3,9 @@
 		<div class="navbar-wrapper">
 			<div class="navbar-links-wrapper">
 				<div class="navbar-links-container">
-					<span class="navbar-links-home">
-						<RouterLink :to="siteBrandLink">
-							{{ siteBrandTitle }}
-						</RouterLink>
-					</span>
+					<a class="customAnchor" href="/">
+						<img class="navicon-fade" src="https://weebyapi.xyz/static/Logo.png" style="padding-top: 15px" height="40" />
+					</a>
 					<slot name="before"></slot>
 					<NavbarLinks class="can-hide" />
 					<slot name="after"></slot>

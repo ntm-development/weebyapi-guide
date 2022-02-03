@@ -43,7 +43,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 			},
 			{
 				text: 'Discord',
-				link: 'https://discord.gg/cmUFubKUtu',
+				link: 'https://weebyapi.xyz/discord',
 			}
 		],
 		themePlugins: {
