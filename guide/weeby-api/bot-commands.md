@@ -9,7 +9,7 @@ The Weeby API bot uses slash commands which can be run in the server.
 				:command="true"
 			>apply</DiscordInteraction>
 		</template>
-        <strong>/apply</strong> &lt;bot ID&gt; &lt;reason&gt; &lt;isprivate&gt;<br>
+        <strong>/apply</strong> &lt;bot ID&gt; &lt;reason&gt; &lt;prefix&gt; &lt;isprivate&gt;<br>
         <i>Submit an application for the API.</i>
     </DiscordMessage>
     <DiscordMessage profile="bot">
