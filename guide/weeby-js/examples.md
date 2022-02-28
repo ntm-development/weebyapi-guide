@@ -14,7 +14,8 @@ const WeebyAPI = require('weeby-js');
 const weeby = new WeebyAPI('YOUR_TOKEN');
 
 const image = await weeby.generators.oneImage({ type: '3000years', image: 'https://i.imgur.com/qgKvcQv.png' });
-message.channel.send({ files: [{ attachment: image }] }); // -> Image Buffer
+
+return image; // -> Image Buffer
 ```
 
 ### Custom
@@ -35,5 +36,5 @@ const image = await weeby.custom.greeting({
 	font: 'riffic',
 });
 
-message.channel.send({ files: [{ attachment: image }] }); // -> Image Buffer
+return image; // -> Image Buffer
 ```

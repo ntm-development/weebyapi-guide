@@ -4,7 +4,7 @@
 A Rest API Service that lets you generate images, create image effects, fetch GIFs and so much more.
 
 ### Can I invite the Weeby API Discord Bot?
-No, the bot can only be used on the Support [Discord Server](https://weebyapi.xyz/discord). The bot will only be used for handling applications, viewing documentation, and everything else about Weeby API.
+No, the bot can only be used on the [NTM Discord Server](https://weebyapi.xyz/discord). The bot will only be used for handling applications, viewing documentation, and everything else about Weeby API.
 
 ### Are there any examples?
 Although we don't have a comprehensive list of examples. We have two endpoint examples currently on the Weeby API website.

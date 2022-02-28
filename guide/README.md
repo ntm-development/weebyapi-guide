@@ -16,7 +16,7 @@ Here are a few useful links:
 
 * [Website](https://weebyapi.xyz/)
 * [Documentation](https://weebyapi.xyz/api/docs/)
-* [Dashboard](https://weebyapi.xyz/login/)
+* [Dashboard](https://weebyapi.xyz/dashboard/)
 * [Instagram](https://instagram.com/ntmcentral)
 * [Twitter](https://twitter.com/ntmcentral)
 * [TikTok](https://tiktok.com/@ntmcentral)
