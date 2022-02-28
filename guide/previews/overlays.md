@@ -45,6 +45,9 @@
 ## Thuglife
 <img src="https://cdn.weebyapi.xyz/img/examples/overlays/thuglife.png" alt="thuglife" width="600" height="600">
 
+## Wasted
+<img src="https://cdn.weebyapi.xyz/img/examples/overlays/wasted.png" alt="wasted" width="600" height="600">
+
 ## Balance
 <img src="https://cdn.weebyapi.xyz/img/examples/overlays/balance.png" alt="balance" width="600" height="600">
 
