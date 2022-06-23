@@ -6,11 +6,11 @@ First, join our [Discord Server](https://weebyapi.xyz/discord) and click "Accept
 
 ![Join the server](./images/server-invite.png)
 
-Run the `/apply` command in the `#weebyapi-commands` channel. 
+Run the `/apply` command in the `#weebyapi-commands` channel.
 
 ![Run the `/apply` command](./images/apply.png)
 
-Make sure you fill in all the required options. Depending on the condition, an error will return if you don't fill them in properly.
+A modal will send which will ask you fill in all the required options. Depending on the condition, an error will return if you don't fill them in properly.
 
 ::: warning 
 Make sure you are eligible for a token. See [this article](/weeby-api/requirements) for the requirements to be accepted.

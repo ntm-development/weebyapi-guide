@@ -5,9 +5,6 @@ The bigger the image size (dimensions), the longer it will take to process the e
 :::
 
 ## [General](https://weebyapi.xyz/api/docs#general)
-### Blur
-
-<img src="https://cdn.weebyapi.xyz/img/examples/effects/blur.png" alt="blur" width="600" height="600">
 
 ### Contrast
 
@@ -57,6 +54,10 @@ The bigger the image size (dimensions), the longer it will take to process the e
 
 <img src="https://cdn.weebyapi.xyz/img/examples/effects/invertedgreyscale.png" alt="invertedgreyscale" width="600" height="600">
 
+### Oil
+
+<img src="https://cdn.weebyapi.xyz/img/examples/effects/oil.png" alt="oil" width="600" height="600">
+
 
 ## [Intensity](https://weebyapi.xyz/api/docs#intensity)
 ### Brightness (1-255)
@@ -76,6 +77,14 @@ The bigger the image size (dimensions), the longer it will take to process the e
 ### Distort [1-100]
 <img src="https://cdn.weebyapi.xyz/img/examples/effects/distort.png" alt="distort" width="600" height="600">
 
+### Blur [1-180]
+<img src="https://cdn.weebyapi.xyz/img/examples/effects/blur.png" alt="blur" width="600" height="600">
+
+### Swirl [-360-360]
+<img src="https://cdn.weebyapi.xyz/img/examples/effects/swirl.png" alt="swirl" width="600" height="600">
+
+### Implode [-100-100]
+<img src="https://cdn.weebyapi.xyz/img/examples/effects/implode.png" alt="implode" width="600" height="600">
 
 ## [Resize](https://weebyapi.xyz/api/docs#resize)
 <img src="https://cdn.weebyapi.xyz/img/examples/effects/resize.png" alt="resize">
