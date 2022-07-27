@@ -43,9 +43,8 @@ export default {
 			children: [
 				'/other/socialmedia.md',
 				'/other/privacypolicy.md',
-				'/other/termsofservice.md',
 				'/other/stayingsafeonline.md',
 			],
-		}
+		},
 	],
 };

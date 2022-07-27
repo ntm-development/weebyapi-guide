@@ -1,5 +1,6 @@
 :root {
 	--nav-background-color: var(--theme-530);
+	--nav-borderbottom-color: var(--theme-460);
 	--nav-links-color: var(--theme-600);
 	--nav-links-hover-color: var(--theme-630);
 }
@@ -28,12 +29,12 @@ html.guide-theme-blurple {
 }
 
 .navbar {
+	border-bottom: 2px solid var(--nav-borderbottom-color);
 	background-color: var(--nav-background-color);
 	display: flex;
 	align-items: center;
 	font-size: 0.875rem;
 	padding: 0.5rem 0;
-	border-width: 0;
 	transition: none;
 
 	.navbar-wrapper {
